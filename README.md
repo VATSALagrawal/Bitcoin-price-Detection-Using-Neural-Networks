@@ -17,7 +17,7 @@ CSV files for select bitcoin exchanges for the time period of Jan 2014 to Decemb
 
 1.  Read the data , convert timestamp values to date and then group them according to their date.
 2.  Split data into Training and Testing data
-3.  Use MinMAxScaler from sklearn for Data preprocessing to feature scale data to fit in range (0,1) which helps NN converge faster.
+3.  Use MinMaxScaler from sklearn for Data preprocessing to feature scale data to fit in range (0,1) which helps NN converge faster.
 4.  Initialising the RNN
 5.  Add the input layer and the LSTM layer input_shape(x,y) x is number of time steps  and y is number of features.
 6.  Use sigmoid activations function.
